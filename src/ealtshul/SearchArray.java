@@ -6,13 +6,13 @@ public class SearchArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Random rand = new Random();
-		int[] arr = new int[10];
+		int[] arr = new int[15];
 		
 		for(int i = 0; i<arr.length; i++)
-			arr[i] = rand.nextInt(20);
+			arr[i] = rand.nextInt(30);
 		
 		//Linear Search
-		int k = rand.nextInt(20);
+		int k = rand.nextInt(30);
 		
 		System.out.println("Linear Search");
 		System.out.print("Arr: ");
@@ -31,7 +31,7 @@ public class SearchArray {
 		Arrays.sort(arr);
 		
 		//binary search
-		k = rand.nextInt(20);
+		k = rand.nextInt(30);
 		System.out.println();
 		System.out.println("Binary Search");
 		System.out.print("Arr: ");
@@ -47,7 +47,7 @@ public class SearchArray {
 		System.out.println("Auxiliary Space : O(1)");
 		
 		//jump search
-		k = rand.nextInt(20);
+		k = rand.nextInt(30);
 		System.out.println();
 		System.out.println("Jump Search");
 		System.out.print("Arr: ");
@@ -63,7 +63,7 @@ public class SearchArray {
 		System.out.println("Auxiliary Space : O(1)");
 		
 		//Interpolation search
-		k = rand.nextInt(20);
+		k = rand.nextInt(30);
 		System.out.println();
 		System.out.println("Interpolation Search");
 		System.out.print("Arr: ");
@@ -78,7 +78,7 @@ public class SearchArray {
 		System.out.println("Time Complexity : O(log n)");
 		System.out.println("Auxiliary Space : O(1)");
 		
-		k = rand.nextInt(20);
+		k = rand.nextInt(30);
 		System.out.println();
 		System.out.println("Exponential Search");
 		System.out.print("Arr: ");
@@ -93,7 +93,7 @@ public class SearchArray {
 		System.out.println("Time Complexity : O(log n)");
 		System.out.println("Auxiliary Space : O(1)");
 		
-		k = rand.nextInt(20);
+		k = rand.nextInt(30);
 		System.out.println();
 		System.out.println("Ternary Search");
 		System.out.print("Arr: ");
